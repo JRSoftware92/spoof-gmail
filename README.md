@@ -74,29 +74,29 @@ This documentation is being done before and after the three hours, as it seems i
 Phase 1 will likely take the most development time as it will involve setting
 up the core application structure.
 
-#### Phase 1
+#### Phase 1 (MVP)
 - Read Email
 - Write Email
 - See Folders
 - See Emails in Folder
 
-#### Phase 2
+#### Phase 2 (Core Feature Wrapup)
 - Delete Email
 - Create Folder
 - Delete Folder (non essential folders)
 
-#### Phase 3
+#### Phase 3 (Core Feature Extension)
 - Mark as Spam
 - Archive
 - Mark as Important
 - Star
 
-#### Phase 4
+#### Phase 4 (Contact Integration)
 - Read Contacts
 - Create Contact
 - Delete Contact
 
-#### Phase 5
+#### Phase 5 (Supplementary Features)
 - Email Tags
 - Apply User Filter Rules for Incoming Messages
 - Return and Apply Account Settings

@@ -119,7 +119,7 @@ around using Redux. Another hour of development and Phase 3 would have been easy
 I might have exceeded the three hour mark as a result of not timing myself strictly while I installed dependencies and thought about file structure, 
 but I made sure to keep all of the major application development between 11am and 2pm on Sunday morning.
 
-I didn't get the chance to do any Parse Dates on the Message View using Moment, as it felt inappropriate to use my development time for that.
+I didn't get the chance to do any date parsing on the Message View using Moment, as it felt inappropriate to use my development time for that.
 
 Redux DID prove useful in the end, particularly for handling actions like message sending which required some interaction
 between the two data stores I created.

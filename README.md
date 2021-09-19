@@ -1,5 +1,11 @@
 # Clone GMail in 3 Hours
 
+## Installation/Running the App
+
+The app is built using a simple Create React App structure.
+
+To run the app, simply install the dependencies with `npm ci` or `npm i`, then follow the installation with `npm start`.
+
 ## Summary 
 
 This challenge is to code a working toy clone of the GMail frontend, using React.js. 
@@ -58,13 +64,12 @@ Work Emails, Mailing Lists)
 
 ## Dev Notes
 
-### Roadmap
-
 I'm going to deliver the features of this application in phases.
 I'm hoping to complete at least the first three phases for this iteration of
 the product (three hours of development time).
-This documentation is being done ahead of time before I start the challenge to
-plan appropriately.
+This documentation is being done before and after the three hours, as it seems inappropriate to include in the development time.
+
+### Roadmap
 
 Phase 1 will likely take the most development time as it will involve setting
 up the core application structure.
@@ -105,3 +110,19 @@ up the core application structure.
 
 I think Redux will be handy for handling updates to the data store based on
 compound user actions like moving messages between folders.
+
+### Retrospective
+
+I was surprised that I didn't make it to Phase 3, but I spent a little too much time initially trying to find clever ways
+around using Redux. Another hour of development and Phase 3 would have been easy to implement, along with at least part of Phase 4.
+
+I might have exceeded the three hour mark as a result of not timing myself strictly while I installed dependencies and thought about file structure, 
+but I made sure to keep all of the major application development between 11am and 2pm on Sunday morning.
+
+I didn't get the chance to do any Parse Dates on the Message View using Moment, as it felt inappropriate to use my development time for that.
+
+Redux DID prove useful in the end, particularly for handling actions like message sending which required some interaction
+between the two data stores I created.
+
+I used a Redux Middleware to simulate API responses, so that I adequately addressed the challenge of integrating the API structure into the
+application. In practice, all it does is watch for the appropriate actions, and then subsequently adds the requested api data into the data store.

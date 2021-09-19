@@ -126,3 +126,9 @@ between the two data stores I created.
 
 I used a Redux Middleware to simulate API responses, so that I adequately addressed the challenge of integrating the API structure into the
 application. In practice, all it does is watch for the appropriate actions, and then subsequently adds the requested api data into the data store.
+
+Given more time and a more extensive roadmap, I'd do the following (apart from meet the other phases of my initial plan):
+- Add Unit Testing with jest and React Testing Library to cover the requirements of the app
+- Integrate Storybook for Individual Component Sandboxing (great tool for siloed and/or offline feature development)
+- Implement Redux Saga for proper API Request/Response management. Saga also lends itself to unit testing.
+- Refactor some of my redundant code and see where there might be room for optimization.

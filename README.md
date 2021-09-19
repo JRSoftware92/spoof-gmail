@@ -114,7 +114,7 @@ compound user actions like moving messages between folders.
 ### Retrospective
 
 I was surprised that I didn't make it to Phase 3, but I spent a little too much time initially trying to find clever ways
-around using Redux. Another hour of development and Phase 2/3 would have been easy to implement, along with at least part of Phase 4.
+around using Redux. Another hour of development and Phase 2 & 3 would have been easy to implement, along with at least part of Phase 4.
 
 I might have exceeded the three hour mark as a result of not timing myself strictly while I installed dependencies and thought about file structure, 
 but I made sure to keep all of the major application development between 11am and 2pm on Sunday morning.

@@ -8,6 +8,9 @@ To run the app, simply clone the repo, install the dependencies with `npm ci` or
 
 You should be able to access the app via your browser at `localhost:3000`.
 
+NOTE: One bug to note is that you'll need to click the 'Inbox' tab to load the data initially. This is something I meant to address but ran out of time for.
+I'd resolve it by adjusting when I call my action creator for retrieving the folder data for the selected folder. That appears to be a simple problem of timing with Redux actions.
+
 ## Summary 
 
 This challenge is to code a working toy clone of the GMail frontend, using React.js. 

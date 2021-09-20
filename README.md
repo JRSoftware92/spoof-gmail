@@ -4,7 +4,9 @@
 
 The app is built using a simple Create React App structure.
 
-To run the app, simply install the dependencies with `npm ci` or `npm i`, then follow the installation with `npm start`.
+To run the app, simply clone the repo, install the dependencies with `npm ci` or `npm i`, then enter `npm start` once the installation process is complete.
+
+You should be able to access the app via your browser at `localhost:3000`.
 
 ## Summary 
 

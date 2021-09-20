@@ -127,6 +127,10 @@ between the two data stores I created.
 I used a Redux Middleware to simulate API responses, so that I adequately addressed the challenge of integrating the API structure into the
 application. In practice, all it does is watch for the appropriate actions, and then subsequently adds the requested api data into the data store.
 
+I didn't have the opportunity to add console.log statements representing my POST/DELETE payloads, however they'd be very much similar to the payloads carried by my Redux actions. 
+
+I also took creative liberties on ID assignment by adding a crude random number generator. This is the kind of operation that would be controlled by the backend, so I didn't think it appropriate to spend more time on that.
+
 Given more time and a more extensive roadmap, I'd do the following (apart from meet the other phases of my initial plan):
 - Add Unit Testing with jest and React Testing Library to cover the requirements of the app
 - Integrate Storybook for Individual Component Sandboxing (great tool for siloed and/or offline feature development)
